@@ -1,0 +1,59 @@
+.ant-card {
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;   
+  }
+
+  .ant-card::before, .ant-card::after{
+    content:"";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+  }
+  
+  .ant-card-head-title::before, .ant-card-head-title::after{
+    content:"";
+    width:2px;
+    height:0;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #fff;
+  }
+  .ant-card:hover::before, .ant-card:hover::after{
+    width: 100%;
+  }
+  .ant-card:hover .ant-card-head-title::before, .ant-card:hover .ant-card-head-title::after{
+    height: 100%;
+  }
+
+  .ant-card::before, .ant-card::after{
+    transition-delay: 0.2s;
+  }
+  .ant-card .ant-card-head-title::before, .ant-card .ant-card-head-title::after{
+    transition-delay: 0s;
+  }
+  .ant-card::before{
+    right: 0;
+    top: 0;
+  }
+  .ant-card::after{
+    left: 0;
+    bottom: 0;
+  }
+  .ant-card .ant-card-head-title::before{
+    left: 0;
+    top: 0;
+  }
+  .ant-card .ant-card-head-title::after{
+    right: 0;
+    bottom: 0;
+  }
+  .ant-card:hover::before, .ant-card:hover::after{
+    transition-delay: 0s;
+  }
+  .ant-card:hover.ant-card-head-title:before, .ant-card:hover .ant-card-head-title:after{
+    transition-delay: 0.2s;
+  }
+  

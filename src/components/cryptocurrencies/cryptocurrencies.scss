@@ -1,0 +1,76 @@
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+@import "//netdna.bootstrapcdn.com/font-awesome/3.0/css/font-awesome.css";
+
+.crypto-container {
+    .search-crypto {
+        display: flex;
+        align-items: center;
+        .ant-input {
+            background-color: rgb(0, 0, 0);
+            border: 1px solid rgb(184, 182, 182);
+            
+
+            &::placeholder {
+                font-size: 15px;
+                font-family: 'Century gothic';
+            }
+        }
+
+        .anticon-search {
+            margin-right: 40px;
+        }
+    }
+    .crypto-card-container {
+        .ant-card {
+            border: 2px solid rgb(255, 254, 255, 0.4);
+            color: white;
+            font-family: 'Century gothic';
+
+            .ant-card-head-title {
+                font-weight: bold;
+                font-size: 18px;
+            }
+
+            .crypto-image {
+                width: 70px;
+                height: 70px;
+            }
+        }
+
+    }
+}
+
+
+.circle-border {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    border-radius: 50%;
+    background: transparent;
+    background: linear-gradient(0deg, rgba(142, 49, 144, 0.1) 33%, rgb(107, 17, 105) 100%);
+    animation: spin .8s linear 0s infinite;
+}
+
+.circle-core {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
