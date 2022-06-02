@@ -5,7 +5,7 @@ Allows you to see up-to-date information about the world of cryptocurrencies. Ne
 
 ## Available Scripts
 
-Before start, don't forget to crete your own X-RapidAPI-Key from https://rapidapi.com/Coinranking/api/coinranking1/ and paste it to cryptiApi.js file
+Before start, don't forget to crete your own X-RapidAPI-Key from https://rapidapi.com/Coinranking/api/coinranking1/ and paste it to cryptiApi.js file \
 In the project directory, you can run:
 
 ### `npm start`
