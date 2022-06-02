@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+Crypto Planet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
+A project, made with React, Redux, Redux Toolkit, Ant Design and API from RapidApi.
+Allows you to see up-to-date information about the world of cryptocurrencies. News, statistics and more.
+
 
 ## Available Scripts
 
