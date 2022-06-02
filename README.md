@@ -1,6 +1,6 @@
 ### Crypto Planet
 
-A project, made with React, Redux, Redux Toolkit, Ant Design and API from RapidApi.
+A project, made with React, Redux, Redux Toolkit, SCSS, Ant Design and API from RapidApi.
 Allows you to see up-to-date information about the world of cryptocurrencies. News, statistics and more.
 
 ## Available Scripts
